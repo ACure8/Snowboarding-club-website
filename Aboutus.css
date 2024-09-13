@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,900;1,14..32,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&display=swap');
 
 
 nav {
@@ -85,12 +86,46 @@ footer {
     background-color: #C6D8F3;
 }
 
-#name{}
+#name{
+    padding-top: 10px;
+    margin-bottom: 9px;
+    margin-left: 15px;
+    color: #000000;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
 
-#address{}
+#address{
+    margin-left: 15px;
+    margin-top: 18px;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
 
-#join{}
+#join{
+    position: absolute;
+    bottom: -68%;
+    right: 40%;
+    color: #4C61CD;
+    text-decoration: solid;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
 
-#joininfo{}
-
-#clickad{}
+#joininfo{
+    position: absolute;
+    bottom: -73.5%;
+    right: 17%;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+}
