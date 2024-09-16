@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&display=swap');
 
-
 nav {
     background-color: #44A0F4;
     height: 58px;
@@ -108,7 +107,7 @@ footer {
     padding-bottom: 5px;
 }
 
-#join{
+#joinA{
     position: absolute;
     bottom: -68%;
     right: 40%;
@@ -120,12 +119,82 @@ footer {
     font-style: normal;
 }
 
-#joininfo{
+#joininfoA{
     position: absolute;
     bottom: -73.5%;
-    right: 17%;
+    right: 16%;
     font-family: "Inter", system-ui;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: italic;
+    font-size: 17px;
+}
+
+#joinT{
+    position: absolute;
+    bottom: -33.7%;
+    right: 40%;
+    color: #4C61CD;
+    text-decoration: solid;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#joininfoT{
+    position: absolute;
+    bottom: -39.2%;
+    right: 16%;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 17px;
+}
+
+#joinC{
+    position: absolute;
+    bottom: -29.3%;
+    right: 40%;
+    color: #4C61CD;
+    text-decoration: solid;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#joininfoC{
+    position: absolute;
+    bottom: -34.9%;
+    right: 16%;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 17px;
+}
+
+#joinS{
+    position: absolute;
+    bottom: -20.8%;
+    right: 40%;
+    color: #4C61CD;
+    text-decoration: solid;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#joininfoS{
+    position: absolute;
+    bottom: -26.3%;
+    right: 16%;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 17px;
 }
