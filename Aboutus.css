@@ -28,12 +28,26 @@ a {
     font-family: "Inter", sans-serif;
 }
 
+#where {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    color: white;
+    text-decoration: solid;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+}
+
 #first {
     width: 100%;
 }
 
 #bricka {
-    margin-left: 100px;
+    margin-top: 70px;
+    margin-left: 140px;
     text-decoration: solid;
     color: #4C61CD;
     font-family: "Inter", sans-serif;
@@ -45,13 +59,14 @@ a {
 
 #meetup {
     float: right;
-    margin-right: 270px;
-    width: 40%;
+    margin-right: 180px;
+    margin-top: -50px;
+    width: 43%;
 }
 
 #brickb {
-    margin-bottom: 170px;
-    margin-left: 100px;
+    margin-bottom: 130px;
+    margin-left: 140px;
     width: 740px;
     font-family: "Inter", system-ui;
     font-optical-sizing: auto;
@@ -87,8 +102,8 @@ footer {
 
 #name{
     padding-top: 10px;
-    margin-bottom: 9px;
-    margin-left: 15px;
+    margin-bottom: 8px;
+    margin-left: 35px;
     color: #000000;
     font-family: "Inter", system-ui;
     font-optical-sizing: auto;
@@ -97,14 +112,14 @@ footer {
 }
 
 #address{
-    margin-left: 15px;
-    margin-top: 18px;
+    margin-left: 35px;
+    margin-top: 13px;
     font-family: "Inter", system-ui;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: italic;
     font-size: 12px;
-    padding-bottom: 5px;
+    padding-bottom: 7px;
 }
 
 #joinA{
@@ -132,7 +147,7 @@ footer {
 
 #joinT{
     position: absolute;
-    bottom: -33.7%;
+    bottom: -34%;
     right: 40%;
     color: #4C61CD;
     text-decoration: solid;
@@ -144,7 +159,7 @@ footer {
 
 #joininfoT{
     position: absolute;
-    bottom: -39.2%;
+    bottom: -39.6%;
     right: 16%;
     font-family: "Inter", system-ui;
     font-optical-sizing: auto;
@@ -155,7 +170,7 @@ footer {
 
 #joinC{
     position: absolute;
-    bottom: -29.3%;
+    bottom: -29.6%;
     right: 40%;
     color: #4C61CD;
     text-decoration: solid;
@@ -167,7 +182,7 @@ footer {
 
 #joininfoC{
     position: absolute;
-    bottom: -34.9%;
+    bottom: -35.2%;
     right: 16%;
     font-family: "Inter", system-ui;
     font-optical-sizing: auto;
@@ -178,7 +193,7 @@ footer {
 
 #joinS{
     position: absolute;
-    bottom: -20.8%;
+    bottom: -53.9%;
     right: 40%;
     color: #4C61CD;
     text-decoration: solid;
@@ -190,7 +205,7 @@ footer {
 
 #joininfoS{
     position: absolute;
-    bottom: -26.3%;
+    bottom: -59.4%;
     right: 16%;
     font-family: "Inter", system-ui;
     font-optical-sizing: auto;
