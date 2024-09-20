@@ -30,15 +30,16 @@ a {
 
 #where {
     position: absolute;
-    top: 60px;
-    left: 30px;
-    color: white;
+    top: 40%;
+    left: 50%;
+    color: #5f72d1;
     text-decoration: solid;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    font-size: 20px;
+    font-size: 100px;
+    transform: translate(-50%, -50%);
 }
 
 #first {
@@ -94,6 +95,7 @@ a {
     font-style: italic;
     font-size: 33px;
     margin: auto 51px;
+    margin-bottom: 10px;
 }
 
 footer {
