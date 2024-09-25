@@ -28,10 +28,6 @@ a {
     font-family: "Inter", sans-serif;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
 #where {
     position: absolute;
     top: 40%;
@@ -218,4 +214,8 @@ footer {
     font-weight: 300;
     font-style: italic;
     font-size: 17px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
