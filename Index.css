@@ -28,6 +28,10 @@ a {
     font-family: "Inter", sans-serif;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 #where {
     position: absolute;
     top: 40%;
